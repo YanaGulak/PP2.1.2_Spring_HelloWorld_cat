@@ -15,7 +15,7 @@ public class AppConfig {
     @Bean (name = "cat")
     public Cat getCat() {
         Cat cat = new Cat();
-        cat.setName("Barsik");
+        cat.setMessage("Мяу!");
         return cat;
     }
 }
